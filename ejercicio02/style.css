@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    color: rgb(39, 145, 194);
+}
+
+h1{
+    font-size: 30px;
+}
+
+p{
+    font-family: arial;
+}
+
+.first-p{
+
+    color: red;
+}
+
+.first-p-color{
+    color:rgb(113, 6, 6);
+}
+
+h3{
+    color: orange;
+}
+
+.second-p{
+    color: greenyellow;
+}
+
+.second-p-color{
+    color: green;
+}
+
+.third-p{
+    color: pink;
+}
+
+.third-p-color{
+    color:rgb(193, 47, 96);
+}
+
+.fourth-p{
+    color: violet;
+}
+
+.fourth-p-color{
+    color: blueviolet;
+}
+
+.fifth-p{
+    color: rgb(208, 31, 185);
+}
+
+.fifth-p-color{
+    color: rgb(124, 6, 87);
+}
