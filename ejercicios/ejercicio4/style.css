@@ -1,0 +1,160 @@
+/* Nav */
+.nav{
+    background-color: black;
+    padding: 10px;
+}
+.nav-item{
+    width: 100%;
+    max-width:960px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav-item a{
+    padding: 0px 5px 0px 5px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Que hacemos */
+.inicio{
+    background-image:url(./imagenes/caja1.jpg);
+    padding: 100px;
+}
+
+.borde{
+    text-align: center;
+    border: 7px solid white;
+    color: white;
+}
+.saludo{
+    font-size: 5rem;
+    margin-bottom: 5px;
+    font-family: "Montserrat";
+}
+.title{
+    font-size: 2.5rem;
+    margin-top: 5px;
+    font-family: "Montserrat";
+}
+
+.imagen2{
+    width: 100%;
+    max-width:960px;
+    margin: auto;
+    background-image: url(./imagenes/caja2.jpg);
+    background-repeat:no-repeat;
+    background-position: 450px 50px;
+}
+
+.QHtexts{
+    width: 750px;
+    max-width: 750px;
+    padding-top: 150px;
+    padding-bottom: 300px;
+    text-align: left;
+}
+.QHtitle{
+    font-size: 2.5rem;
+}
+.QHtext{
+    padding: 5px 0px 35px 0px;
+    font-size: 1.4rem;
+    background-color: white;
+
+}
+
+/* Quienes somos */
+
+.QS{
+    background-image: url(./imagenes/caja3.jpg);
+    background-repeat:no-repeat;
+}
+
+.contenido-quienes-somos{
+    width: 100%;
+    max-width:960px;
+    margin: auto;
+}
+.QStexts{
+    width: 350px;
+    max-width: 350px;
+    padding-top: 100px;
+    padding-bottom: 250px;
+    text-align: left;
+    padding-left: 740px;
+}
+
+.boton{
+    border: 2px solid black;
+    background-color:black;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Galeria */
+
+.gallery{
+    text-align: center;
+    background-color: orange;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.Gtitle{
+    font-size: 3rem;
+}
+
+.Gimg {
+    padding-right: 20px;
+}
+
+/* Contacto */
+
+#contacto{
+    padding-top: 35px;
+}
+
+.contactos{
+    background-image: url(./imagenes/leaves-pattern.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    border: 7px solid rgb(165, 162, 162);
+    padding-bottom: 300px;
+    text-align: center;
+}
+
+.COtexts{
+    padding-top: 25%;
+    padding-left: 15%;
+    text-align: left;
+}
+.COtext{
+    width: 850px;
+    max-width: 850px;
+    font-size: 1.4rem;
+    border-bottom: 7px solid rgb(165, 162, 162);
+}
+
+.rrss-section{
+    background-color:  black;
+
+}
+
+.rrss-links{
+    width: 100%;
+    max-width:960px;
+    padding: 50px 0px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.rrss-links a{
+    color: white;
+    text-decoration: none;
+    padding-right: 5px;
+}
