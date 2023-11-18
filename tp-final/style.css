@@ -1,0 +1,70 @@
+body{
+    background: #f0d8d9;
+}
+
+nav{
+    background-color: #f6a5c0;
+    display: flex;
+    justify-content: flex-start /* Alinea los elementos a la derecha */
+    list-style: none; /* Quita los estilos de lista */
+    padding: 10px; /* Elimina el padding por defecto */
+}
+
+.nav-title{
+    padding-left:150px;
+    padding-right: 15px;
+    font-size: 20px;
+}
+
+.nav-item a{
+  background-color: #f6a5c0;
+  color:black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.call-to-action {
+    text-align: center;
+    margin-top: 20px; /* Espacio superior (ajústalo según sea necesario) */
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-around; /* Distribuye las cards equitativamente */
+    flex-wrap: wrap; /* Permite que las cards se envuelvan si no caben en una sola línea */
+}
+
+.card {
+    margin: 50px; /* Espacio entre las cards (ajustar según sea necesario) */
+}
+
+.card-title{
+    text-align: center;
+}
+
+.card img {
+    width: 100%; /* Hace que todas las imágenes ocupen el ancho completo de su contenedor */
+    height: 350px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la proporción y recortándola si es necesario */
+}
+
+.img-second-carousel {
+    width: 100%;
+    height: px; /* Puedes ajustar la altura según tus necesidades */
+    object-fit: cover;
+}
