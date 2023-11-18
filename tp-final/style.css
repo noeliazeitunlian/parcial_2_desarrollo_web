@@ -1,70 +1,69 @@
 body{
     background: #f0d8d9;
 }
-
-nav{
-    background-color: #f6a5c0;
-    display: flex;
-    justify-content: flex-start /* Alinea los elementos a la derecha */
-    list-style: none; /* Quita los estilos de lista */
-    padding: 10px; /* Elimina el padding por defecto */
+.nav-container{
+    background-color:#ecaec2;
+    padding:5px 0px 5px 0px
+}
+.navbar{
+    background-color: #ecaec2;
+    margin: 5px 0px 5px 0px;
 }
 
 .nav-title{
-    padding-left:150px;
+    padding-left:15px;
     padding-right: 15px;
     font-size: 20px;
+    text-align:left;
 }
 
-.nav-item a{
-  background-color: #f6a5c0;
-  color:black;
-  text-decoration: none;
-  margin-left: 20px;
+.carouselImg {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
 }
 
-.call-to-action {
-    text-align: center;
-    margin-top: 20px; /* Espacio superior (ajústalo según sea necesario) */
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
+.conoceMas{
+background-color: #f8cad9;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+@media (min-width: 992px) {
+    .secCarouselImg {
+        width: auto;
+        height: 500px;
+        max-height: 500px;
+    }
 }
 
-.card-container {
-    display: flex;
-    justify-content: space-around; /* Distribuye las cards equitativamente */
-    flex-wrap: wrap; /* Permite que las cards se envuelvan si no caben en una sola línea */
-}
 
-.card {
-    margin: 50px; /* Espacio entre las cards (ajustar según sea necesario) */
-}
+.ofertas{
+    padding: 15px 0px 0px 0px;
+    border-style: dotted;
+    border-color: #f8cad9;
 
-.card-title{
-    text-align: center;
 }
+.carousel-caption {
+    position: absolute;
+    top:25px;
+    max-height: 100px;
+ }
 
-.card img {
-    width: 100%; /* Hace que todas las imágenes ocupen el ancho completo de su contenedor */
-    height: 350px; /* Altura fija para todas las imágenes */
-    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la proporción y recortándola si es necesario */
-}
+ .test2 {
+    background-image: url(./imagenes/lunch.png);
+    background-repeat:no-repeat;
+    background-size: cover;
 
-.img-second-carousel {
-    width: 100%;
-    height: px; /* Puedes ajustar la altura según tus necesidades */
-    object-fit: cover;
-}
+ }
+
+ .test1 {
+    background-image: url(./imagenes/desayuno.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+ }
+ .test3 {
+    background-image: url(./imagenes/merienda.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+ }
