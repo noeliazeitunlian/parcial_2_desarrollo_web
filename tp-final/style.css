@@ -67,3 +67,13 @@ background-color: #f8cad9;
     background-size: cover;
 
  }
+
+ img.img-fluid {
+    max-width: 100%; /* Asegura que el logo no sea más ancho que su contenedor */
+    max-height: 100px;
+    height: 50%; /* Hace que el logo mantenga su proporción original */
+}
+
+.titles-footer{
+    color:#ecaec2
+}
