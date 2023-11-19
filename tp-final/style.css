@@ -67,3 +67,41 @@ background-color: #f8cad9;
     background-size: cover;
 
  }
+
+ .carousel-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto; 
+    max-width: 1200px;
+ }
+
+ .container p, h3, h4{
+    text-align: center;
+
+    
+ }
+ 
+ .container p{
+    font-size: 18px;
+    margin-bottom: 20px;
+ }
+
+ .container h3, h4{
+    color: blueviolet;
+ }
+
+ .resaltado{
+    font-style: italic;
+    
+ }
+
+.container .text-section{
+    border: black solid 2px;
+}
+
+.text-section{
+    padding: 20px;
+}
