@@ -2,3 +2,71 @@
     background-color: rgb(233, 187, 194);
 
 }
+
+.second-section{
+    text-align: center;
+    padding: 45px;
+}
+
+.third-section{
+    background-color: violet;
+    margin: 60px;
+    padding: 60px 0;
+}
+
+.fourth-section p{
+    font-weight: bold;
+    border: 2px solid black; 
+    padding: 10px;
+}
+
+.fifth-section{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 100px; 
+    margin-bottom: 100px;
+}
+
+
+.sixth-section{
+    line-height: 2.5;
+    padding: 10px;
+}
+
+.seventh-section{
+    background-image: url('img/pexels-photo-531880.jpeg');
+    background-size: cover; 
+    background-position: center;
+    border: 10px solid black;
+}
+
+.eighth-section{
+    text-decoration: underline;
+    padding: 25px; 
+    border: 5px solid black;
+}
+
+.nineth-section{
+    background-color: #078c36; 
+    position: relative; 
+
+    background-image: url('img/milky-way-starry-sky-night-sky-star-956999.jpeg'); 
+    background-size: 50% 100%; 
+    background-position: right top; 
+    background-repeat: no-repeat; 
+    padding-right: 200px;
+}
+
+.nineth-section .btn{
+    background-color: blueviolet;
+    margin: 5px 5px;
+}
+
+.ten-section{
+    width: 50%;
+}
+
+.ten-section .btn{
+    border: 5px solid #333;
+    box-shadow: 2px 2px 5px rgba(243, 1, 1, 0.932);
+    padding: 20px;
+}
