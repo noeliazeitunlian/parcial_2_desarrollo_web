@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(169, 168, 165);
+    padding: 100px;
+}
+
+.card-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    gap: 2px;
+  }
+
+.first-section .card{
+    margin-bottom: 30px;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.574);
+    width: 150px; 
+    height: 350px;
+}
+
+.icon{
+    color: rgb(35, 147, 181);
+    font-size: 2.5rem;
+    margin-left: 10px;
+}
+
+.card-body h3{
+    color: blue;
+    font-size: 25px;
+}
+
+.card-body h4{
+    color: blue;
+    font-size: 22px;
+}
+
+.learn-more{
+    color: rgb(35, 147, 181);
+    font-weight: bold;
+}
+
+.card-content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    max-width: 800px;
+    gap: 1px;
+  }
+
+  .card-content-2 .card {
+    width: calc(50% - 10px); /* Dos tarjetas por fila */
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  .card-content-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 900px;
+    gap: 2px;
+  }
+
+  .third-section .card{
+    margin-bottom: 30px;
+    color: rgba(0, 0, 0, 0.574);
+    width: 150px; 
+    height: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    .card {
+        width: 100%; 
+    }
+}
