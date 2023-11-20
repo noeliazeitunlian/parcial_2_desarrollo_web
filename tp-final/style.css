@@ -1,5 +1,5 @@
 body{
-    background: #f0d8d9;
+    background: #e6b1b3;
 }
 .nav-container{
     background-color:#ecaec2;
@@ -105,3 +105,54 @@ background-color: #f8cad9;
 .text-section{
     padding: 20px;
 }
+
+.img-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-preguntasfrec{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    color: blueviolet;
+}
+
+.pregunta{
+    list-style: none;
+    font-size: 18px;
+}
+
+.p-preguntas-frecuentes{
+    
+    border: black 2px;
+}
+
+.content-card{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+
+.icon-card{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
