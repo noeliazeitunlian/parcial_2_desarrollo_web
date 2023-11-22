@@ -68,42 +68,14 @@ background-color: #f8cad9;
 
  }
 
- .carousel-content{
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 80vh;
-    margin: 0 auto; 
-    max-width: 1200px;
- }
-
- .container p, h3, h4{
-    text-align: center;
-
-    
- }
- 
- .container p{
-    font-size: 18px;
-    margin-bottom: 20px;
- }
-
- .container h3, h4{
-    color: blueviolet;
- }
-
- .resaltado{
-    font-style: italic;
-    
- }
-
-.container .text-section{
-    border: black solid 2px;
+ img.img-fluid {
+    max-width: 100%; /* Asegura que el logo no sea más ancho que su contenedor */
+    max-height: 100px;
+    height: 50%; /* Hace que el logo mantenga su proporción original */
 }
 
-.text-section{
-    padding: 20px;
+.titles-footer{
+    color:#ecaec2
 }
 
 .img-div{
