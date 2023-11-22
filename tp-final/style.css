@@ -1,70 +1,158 @@
 body{
-    background: #f0d8d9;
+    background: #e6b1b3;
 }
-
-nav{
-    background-color: #f6a5c0;
-    display: flex;
-    justify-content: flex-start /* Alinea los elementos a la derecha */
-    list-style: none; /* Quita los estilos de lista */
-    padding: 10px; /* Elimina el padding por defecto */
+.nav-container{
+    background-color:#ecaec2;
+    padding:5px 0px 5px 0px
+}
+.navbar{
+    background-color: #ecaec2;
+    margin: 5px 0px 5px 0px;
 }
 
 .nav-title{
-    padding-left:150px;
+    padding-left:15px;
     padding-right: 15px;
     font-size: 20px;
+    text-align:left;
 }
 
-.nav-item a{
-  background-color: #f6a5c0;
-  color:black;
-  text-decoration: none;
-  margin-left: 20px;
+.carouselImg {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
 }
 
-.call-to-action {
+.conoceMas{
+background-color: #f8cad9;
+}
+
+@media (min-width: 992px) {
+    .secCarouselImg {
+        width: auto;
+        height: 500px;
+        max-height: 500px;
+    }
+}
+
+
+.ofertas{
+    padding: 15px 0px 0px 0px;
+    border-style: dotted;
+    border-color: #f8cad9;
+
+}
+.carousel-caption {
+    position: absolute;
+    top:25px;
+    max-height: 100px;
+ }
+
+ .test2 {
+    background-image: url(./imagenes/lunch.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+ }
+
+ .test1 {
+    background-image: url(./imagenes/desayuno.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+ }
+ .test3 {
+    background-image: url(./imagenes/merienda.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+ }
+
+ .carousel-content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    margin: 0 auto; 
+    max-width: 1200px;
+ }
+
+ .container p, h3, h4{
     text-align: center;
-    margin-top: 20px; /* Espacio superior (ajústalo según sea necesario) */
-    position:absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 
+    
+ }
+ 
+ .container p{
+    font-size: 18px;
+    margin-bottom: 20px;
+ }
+
+ .container h3, h4{
+    color: blueviolet;
+ }
+
+ .resaltado{
+    font-style: italic;
+    
+ }
+
+.container .text-section{
+    border: black solid 2px;
 }
 
-.cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    text-decoration: none;
-    color: #fff;
-    background-color: #007bff;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+.text-section{
+    padding: 20px;
+}
+
+.img-div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-preguntasfrec{
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    color: blueviolet;
+}
+
+.pregunta{
+    list-style: none;
+    font-size: 18px;
+}
+
+.p-preguntas-frecuentes{
+    
+    border: black 2px;
+}
+
+.content-card{
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+
+.icon-card{
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.card-body{
+    text-align: center;
 }
 
 .card-container {
     display: flex;
-    justify-content: space-around; /* Distribuye las cards equitativamente */
-    flex-wrap: wrap; /* Permite que las cards se envuelvan si no caben en una sola línea */
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.card {
-    margin: 50px; /* Espacio entre las cards (ajustar según sea necesario) */
-}
-
-.card-title{
-    text-align: center;
-}
-
-.card img {
-    width: 100%; /* Hace que todas las imágenes ocupen el ancho completo de su contenedor */
-    height: 350px; /* Altura fija para todas las imágenes */
-    object-fit: cover; /* Ajusta el tamaño de la imagen manteniendo la proporción y recortándola si es necesario */
-}
-
-.img-second-carousel {
-    width: 100%;
-    height: px; /* Puedes ajustar la altura según tus necesidades */
-    object-fit: cover;
-}
