@@ -68,10 +68,14 @@ background-color: #f8cad9;
 
  }
 
- img.img-fluid {
-    max-width: 100%; /* Asegura que el logo no sea más ancho que su contenedor */
+ .text-price{
+    color:blueviolet;
+ }
+
+.img-fluid {
+    max-width: 100%; 
     max-height: 100px;
-    height: 50%; /* Hace que el logo mantenga su proporción original */
+    height: 50%; 
 }
 
 .titles-footer{
@@ -87,7 +91,7 @@ background-color: #f8cad9;
     align-items: center;
 }
 
-.title-preguntasfrec{
+.main-title{
     text-align: center;
     margin-top: 50px;
     padding-bottom: 30px;
@@ -99,16 +103,10 @@ background-color: #f8cad9;
     font-size: 18px;
 }
 
-.p-preguntas-frecuentes{
-    
-    border: black 2px;
-}
-
 .content-card{
     margin-top: 40px;
     margin-left: 200px;
 }
-
 
 .icon-card{
     font-size: 3rem;
@@ -128,3 +126,10 @@ background-color: #f8cad9;
     justify-content: space-between;
 }
 
+.button-violet{
+    margin-top: 5px;
+    background-color: blueviolet;
+    color: white;
+    border: white;
+    border-radius: 10px;
+}
