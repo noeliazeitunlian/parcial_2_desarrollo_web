@@ -133,3 +133,9 @@ background-color: #f8cad9;
     border: white;
     border-radius: 10px;
 }
+
+@media (max-width: 768px){
+    .carouselImg{
+        height: 250px;
+    }
+}
