@@ -12,7 +12,7 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    
+
     <header>
         <div class="nav-container container-fluid sticky-top">
             <div class="container">
@@ -34,12 +34,12 @@
             </div>
         </div>
     </header>
-
+    
     <div class="container mt-5">
         <div id="successMessage" style="display: none; color: green;">¡Mensaje enviado con éxito!</div>
         <div id="errorMessage" style="display: none; color: red;">¡Error! Por favor, verifica el formulario.</div>
 
-        <h2>Formulario de Contacto</h2>
+        <h2 class="main-title">Formulario de Contacto</h2>
         <form id="contactForm" method="post" novalidate>
             <div class="form-group">
                 <label for="nombre">Nombre:</label>
@@ -53,7 +53,7 @@
                 <label for="mensaje">Mensaje:</label>
                 <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+            <button type="submit" class="button-violet">Enviar Mensaje</button>
         </form>
     </div>    
 
@@ -74,7 +74,8 @@
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5942372379172!2d-58.396211624814036!3d-34.58913225672706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa28fc1ba07%3A0x58c82b894103bca7!2sVicente%20L%C3%B3pez%202056%2C%20C1113%20CABA!5e0!3m2!1ses-419!2sar!4v1700413362660!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div class="col-md-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6234979529336!2d-58.43090862481407!3d-34.58839205668803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5862c93b7c9%3A0xf131e1574d8244d9!2sEl%20Salvador%204827%2C%201414%20CABA!5e0!3m2!1ses-419!2sar!4v1700413466829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6234979529336!2d-58.43090862481407!3d-34.58839205668803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5862c93b7c9%3A0xf131e1574d8244d9!2sEl%20Salvador%204827%2C%201414%20CABA!5e0!3m2!1ses-419!2sar!4v1700413466829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </div>
     </div>
 
@@ -90,8 +91,8 @@
                             <li>Lucia Rizzo</li>
                             <li>Noelia Zeitunlian</li>
                         </ul>
-
                     </div>
+
                     <div class="col-lg-4 col-md-6 text-white">
                         <h4 class="titles-footer mb-4">Cursada</h4>
                         <p class="mb-1">Materia</p>
@@ -101,6 +102,7 @@
                         <p class="mb-1">Año</p>
                         <h6 class="text-light">2023</h6>
                     </div>
+
                     <div class="col-lg-4 col-md-6 text-white">
                         <h4 class="titles-footer mb-4">RRSS</h4>
                         <p>Seguinos!</p>
@@ -127,37 +129,37 @@
             var form = document.getElementById('contactForm');
             var successMessage = document.getElementById('successMessage');
             var errorMessage = document.getElementById('errorMessage');
-        
+
             form.addEventListener('submit', function (event) {
                 event.preventDefault();
-        
+
                 if (form.checkValidity()) {
                     var nombre = document.getElementById('nombre').value;
                     var email = document.getElementById('email').value;
                     var mensaje = document.getElementById('mensaje').value;
-        
+
                     var formData = {
                         nombre: nombre,
                         email: email,
                         mensaje: mensaje
                     };
-        
+
                     localStorage.setItem('formData', JSON.stringify(formData));
-        
+
                     successMessage.style.display = 'block';
                     errorMessage.style.display = 'none';
-        
+
                     form.reset();
                 } else {
                     successMessage.style.display = 'none';
                     errorMessage.style.display = 'block';
-        
+
                     console.log('Formulario no válido');
                 }
             });
         });
-        </script>
-        
+    </script>
+
     
 </body>
 </html>
