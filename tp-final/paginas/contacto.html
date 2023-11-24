@@ -10,32 +10,34 @@
     <link rel="shortcut icon" href="/imagenes/Arnolu.png" type="image/x-icon">
     <title>ARNOLU | Casa de Té</title>
 </head>
-<header>
-    <div class="nav-container container-fluid sticky-top">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light py-2 py-lg-0">
-                <img src="../imagenes/Logo.png" alt="Logo ARNOLU" class="img-fluid">
-                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active" aria-current="page">Inicio</a>
-                        <a href="productos.html" class="nav-item nav-link">Productos</a>
-                        <a href="contacto.html" class="nav-item nav-link">Contacto</a>
-                        <a href="preguntas_frec.html" class="nav-item nav-link">Preguntas frecuentes</a>
-                        <a href="quienes_somos.html" class="nav-item nav-link">Quienes somos</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </div>
-</header>
 
-<body>
+<body class="d-flex flex-column min-vh-100">
+
+    <header>
+        <div class="nav-container container-fluid sticky-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light py-2 py-lg-0">
+                    <img src="../imagenes/Logo.png" alt="Logo ARNOLU" class="img-fluid">
+                    <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link active" aria-current="page">Inicio</a>
+                            <a href="productos.html" class="nav-item nav-link">Productos</a>
+                            <a href="contacto.html" class="nav-item nav-link">Contacto</a>
+                            <a href="preguntas_frec.html" class="nav-item nav-link">Preguntas frecuentes</a>
+                            <a href="quienes_somos.html" class="nav-item nav-link">Quienes somos</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
     <div class="container mt-5">
         <div id="successMessage" style="display: none; color: green;">¡Mensaje enviado con éxito!</div>
-<div id="errorMessage" style="display: none; color: red;">¡Error! Por favor, verifica el formulario.</div>
+        <div id="errorMessage" style="display: none; color: red;">¡Error! Por favor, verifica el formulario.</div>
 
         <h2 class="main-title">Formulario de Contacto</h2>
         <form id="contactForm" method="post" novalidate>
@@ -55,107 +57,108 @@
         </form>
     </div>    
 
-<div class="container mt-5">
-    <h2 class="main-title">Sucursales</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <p>Dirección: Vicente López 2056, Ciudad de Buenos Aires</p>
+    <div class="container mt-5">
+        <h2>Sucursales</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p>Dirección: Vicente López 2056, Ciudad de Buenos Aires</p>
+            </div>
+            <div class="col-md-6">
+                <p>Dirección: El Salvador 4827, Ciudad de Buenos Aires</p>
+            </div>
         </div>
-        <div class="col-md-6">
-            <p>Dirección: El Salvador 4827, Ciudad de Buenos Aires</p>
-        </div>
-    </div>
 
     <!-- Agregar el mapa de Google Maps -->
     <div class="row">
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5942372379172!2d-58.396211624814036!3d-34.58913225672706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa28fc1ba07%3A0x58c82b894103bca7!2sVicente%20L%C3%B3pez%202056%2C%20C1113%20CABA!5e0!3m2!1ses-419!2sar!4v1700413362660!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="maps col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5942372379172!2d-58.396211624814036!3d-34.58913225672706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaa28fc1ba07%3A0x58c82b894103bca7!2sVicente%20L%C3%B3pez%202056%2C%20C1113%20CABA!5e0!3m2!1ses-419!2sar!4v1700413362660!5m2!1ses-419!2sar" height="300" width="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
-        <div class="col-md-6">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6234979529336!2d-58.43090862481407!3d-34.58839205668803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5862c93b7c9%3A0xf131e1574d8244d9!2sEl%20Salvador%204827%2C%201414%20CABA!5e0!3m2!1ses-419!2sar!4v1700413466829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
+        <div class="maps col-md-6">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.6234979529336!2d-58.43090862481407!3d-34.58839205668803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5862c93b7c9%3A0xf131e1574d8244d9!2sEl%20Salvador%204827%2C%201414%20CABA!5e0!3m2!1ses-419!2sar!4v1700413466829!5m2!1ses-419!2sar" height="300" width="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
     </div>
-</div>
+    </div>
 
 
-<footer>
-    <div class="container-fluid bg-dark footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-4 col-md-6 text-white">
-                    <h4 class="titles-footer mb-4">Equipo</h4>
-                    <ul>
-                        <li>Ariadna Naya</li>
-                        <li>Lucia Rizzo</li>
-                        <li>Noelia Zeitunlian</li>
-                    </ul>
+    <footer class="mt-auto">
+        <div class="container-fluid bg-dark footer mt-5 py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6 text-white">
+                        <h4 class="titles-footer mb-4">Equipo</h4>
+                        <ul>
+                            <li>Ariadna Naya</li>
+                            <li>Lucia Rizzo</li>
+                            <li>Noelia Zeitunlian</li>
+                        </ul>
+                    </div>
 
-                </div>
-                <div class="col-lg-4 col-md-6 text-white">
-                    <h4 class="titles-footer mb-4">Cursada</h4>
-                    <p class="mb-1">Materia</p>
-                    <h6 class="text-light pb-3">Diseño y desarrollo web</h6>
-                    <p class="mb-1">Comisión</p>
-                    <h6 class="text-light pb-3">449790</h6>
-                    <p class="mb-1">Año</p>
-                    <h6 class="text-light">2023</h6>
-                </div>
-                <div class="col-lg-4 col-md-6 text-white">
-                    <h4 class="titles-footer mb-4">RRSS</h4>
-                    <p>Seguinos!</p>
-                    <div class="position-relative w-100">
-                        <a href="https://www.instagram.com/"><i class="titles-footer" data-feather="instagram"></i></a>
-                        <a href="https://es-la.facebook.com/"><i class="titles-footer" data-feather="facebook"></i></a>
-                        <a href="https://twitter.com/?lang=es"><i class="titles-footer" data-feather="twitter"></i></a>
+                    <div class="col-lg-4 col-md-6 text-white">
+                        <h4 class="titles-footer mb-4">Cursada</h4>
+                        <p class="mb-1">Materia</p>
+                        <h6 class="text-light pb-3">Diseño y desarrollo web</h6>
+                        <p class="mb-1">Comisión</p>
+                        <h6 class="text-light pb-3">449790</h6>
+                        <p class="mb-1">Año</p>
+                        <h6 class="text-light">2023</h6>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 text-white">
+                        <h4 class="titles-footer mb-4">RRSS</h4>
+                        <p>Seguinos!</p>
+                        <div class="position-relative w-100">
+                            <a href="https://www.instagram.com/"><i class="titles-footer" data-feather="instagram"></i></a>
+                            <a href="https://es-la.facebook.com/"><i class="titles-footer" data-feather="facebook"></i></a>
+                            <a href="https://twitter.com/?lang=es"><i class="titles-footer" data-feather="twitter"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
-<script src="https://unpkg.com/feather-icons"></script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-<script>
-    feather.replace();
-</script>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var form = document.getElementById('contactForm');
-        var successMessage = document.getElementById('successMessage');
-        var errorMessage = document.getElementById('errorMessage');
-    
-        form.addEventListener('submit', function (event) {
-            event.preventDefault();
-    
-            if (form.checkValidity()) {
-                var nombre = document.getElementById('nombre').value;
-                var email = document.getElementById('email').value;
-                var mensaje = document.getElementById('mensaje').value;
-    
-                var formData = {
-                    nombre: nombre,
-                    email: email,
-                    mensaje: mensaje
-                };
-    
-                localStorage.setItem('formData', JSON.stringify(formData));
-    
-                successMessage.style.display = 'block';
-                errorMessage.style.display = 'none';
-    
-                form.reset();
-            } else {
-                successMessage.style.display = 'none';
-                errorMessage.style.display = 'block';
-    
-                console.log('Formulario no válido');
-            }
-        });
-    });
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+        feather.replace();
     </script>
-    
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var form = document.getElementById('contactForm');
+            var successMessage = document.getElementById('successMessage');
+            var errorMessage = document.getElementById('errorMessage');
+
+            form.addEventListener('submit', function (event) {
+                event.preventDefault();
+
+                if (form.checkValidity()) {
+                    var nombre = document.getElementById('nombre').value;
+                    var email = document.getElementById('email').value;
+                    var mensaje = document.getElementById('mensaje').value;
+
+                    var formData = {
+                        nombre: nombre,
+                        email: email,
+                        mensaje: mensaje
+                    };
+
+                    localStorage.setItem('formData', JSON.stringify(formData));
+
+                    successMessage.style.display = 'block';
+                    errorMessage.style.display = 'none';
+
+                    form.reset();
+                } else {
+                    successMessage.style.display = 'none';
+                    errorMessage.style.display = 'block';
+
+                    console.log('Formulario no válido');
+                }
+            });
+        });
+    </script>
+
     
 </body>
 </html>
